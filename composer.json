@@ -1,0 +1,23 @@
+{
+    "name": "psmever/winners.sample",
+    "type": "project",
+    "description": "Winners Sample",
+    "authors": [
+        {
+            "name": "psmever",
+            "email": "psmever@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "thingengineer/mysqli-database-class": "dev-master",
+        "intervention/image": "^2.5",
+        "spatie/pdf-to-text": "^1.4",
+        "smalot/pdfparser": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
